@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Chakra Petch", sans-serif;
+  background-color: #dddddd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.header {
+  background-color: #869eb6;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+  font-size: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 3rem;
+}
+
+.header .titulo {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+.header .descricao {
+  font-family: 'Lora', serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.header .form-busca {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header .input-busca {
+  width: 20rem;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1rem;
+  color: #45474b;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header .btn-buscar {
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 1.5rem;
+  background-color: #30475e;
+  color: #f5f7f8;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.header .btn-buscar:hover {
+  background-color: #26323f;
+}
+
+.titulo2 {
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+section input {
+  width: 25rem;
+  border: none;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  margin: 10px 5px;
+  color: #45474b;
+  font-size: 1rem;
+  box-sizing: border-box;
+  font-family: 'Lora', serif;
+}
+
+#experiencia {
+  resize: none;
+  width: 50rem;
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: #45474B;
+  font-size: 1rem;
+  font-family: 'Lora', serif;
+}
+
+.btn {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section button {
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 1.5rem;
+  background-color: #30475e;
+  color: #f5f7f8;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.enviar:hover {
+  background-color: #26323f;
+}
+
+.resultados-pesquisa {
+  width: 60rem;
+  height: 46vh;
+  overflow-y: auto;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 0.6rem;
+}
+
+.item-resultado {
+  background: #ffffff;
+  border-radius: 0.6rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  min-height: 150px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.item-resultado h2 {
+  font-size: 1.5rem;
+  color: #222831;
+}
+
+.item-resultado h4 {
+  text-decoration: none;
+  color: #30475e;
+}
+
+.descricao-meta {
+  color: #45474b;
+  margin: 0.5rem 0;
+}
+
+footer {
+  background-color: #f5f7f8;
+  color: #45474b;
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+  font-size: 1rem;
+}

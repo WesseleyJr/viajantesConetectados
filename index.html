@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Viajantes</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        
+        <h1 class="titulo">Viajantes Conectados</h1>
+        <h4 class="descricao">Um espaço onde apaixonados por viagens compartilham destinos incríveis,
+            experiências inesquecíveis e dicas valiosas.<br>
+            Junte-se à nossa comunidade de exploradores e inspire-se para a sua próxima aventura!</h4>
+        <form class="form-busca">
+            <input type="text" placeholder="Pesquisar destino" class="input-busca" id="input-busca">
+            <button class="btn-buscar" id="btn-buscar">Buscar</button>
+        </form>
+    </header>
+
+    <main>
+        <section class="form-compartilhar">
+            <h3 class="titulo2">Compartilhe sua experiencia conosco</h3>
+            <form>
+                <div>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome">
+                    <input type="text" id="local" name="local" placeholder="Local da sua experiencia">
+                </div>
+                
+                <div class="compartilhar">
+                    <textarea id="experiencia" name="experiencia" placeholder="Compartilhe sua experiência"></textarea>  
+                </div>
+                <div class="btn">
+                    <button class="enviar">Compartilhar</button>
+                </div>
+            </form>
+
+        </section>
+
+        <section class="resultados-pesquisa">
+
+          </section>
+    </main>
+
+    <footer class="footer">
+        <p>©2024 - Viajantes. Todos os direitos reservados</p>
+        <p>Entre em contato pelo email: comercial@viajantes.com.br</p>
+    </footer>
+
+    <script src="script.js" type="text/javascript"></script>
+    <script src="dados.js" type="text/javascript"></script>
+</body>
+</html>
